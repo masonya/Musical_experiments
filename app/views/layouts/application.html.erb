@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hseadc2017Thereminvox</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%#= javascript_pack_tag 'thereminvox' %>
+    <%= javascript_pack_tag 'synth' %>
+  </head>
+
+  <body>
+
+    <%= yield %>
+    
+    <!-- <script type="text/javascript" src="../../javascript/sequence.js"></script> -->
+  </body>
+</html>

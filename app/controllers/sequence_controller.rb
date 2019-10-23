@@ -1,0 +1,2 @@
+class SequenceController < ApplicationController
+end

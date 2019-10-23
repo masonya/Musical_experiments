@@ -1,0 +1,131 @@
+.ToggleSwitch {
+  // display: inline-block;
+  // width: 265px;
+  // height: 144px;
+  // background: #00e5f4;
+  // line-height: 111px;
+  // text-align: center;
+  // margin-top: 51px;
+  // border-radius: 5px;
+  color: black;
+  // margin-bottom: 20px;
+
+  &.sine {
+    color: red;
+  }
+  &.square {
+    color: green;
+  }
+  &.sawtooth {
+    color: blue;
+  }
+  &.triangle {
+    color: pink;
+  }
+
+  &.on {
+    background-color: black;
+    color: white;
+  }
+}
+
+.ToggleSwitch h3 {
+  color: white;
+  margin-left: 18px;
+
+  font-weight: 100;
+}
+
+.addNotesA1 .ToggleSwitch {
+  background-color: #171b25;
+  width: 175px;
+  height: 140px;
+  display: flex;
+  margin-top: 10px;
+
+  &.on {
+    background-color: #f31248;
+    color: white;
+  }
+}
+
+.addNotesA2 .ToggleSwitch {
+  background-color: #171b25;
+  width: 175px;
+  height: 140px;
+  display: flex;
+  margin-top: 10px;
+
+  &.on {
+    background-color: #f31248;
+    color: white;
+  }
+}
+
+.addNotesA3 .ToggleSwitch {
+  background-color: #171b25;
+  width: 265px;
+  height: 140px;
+  display: flex;
+  margin-top: 10px;
+
+  &.on {
+    background-color: #f31248;
+    color: white;
+  }
+}
+
+.addNotesB1 .ToggleSwitch {
+  background-color: #171b25;
+  width: 175px;
+  height: 140px;
+  display: flex;
+  margin-top: 10px;
+
+  &.on {
+    background-color: #f31248;
+    color: white;
+  }
+}
+
+.addNotes {
+  width: 640px;
+  height: 360px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 190px;
+}
+
+.addNotesToggle {
+  width: 640px;
+  height: 55px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newNotes {
+  width: 640px;
+  // height: 360px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 195px;
+}
+
+.newNotesA1 .ToggleSwitch {
+  background-color: #171b25;
+  width: 116px;
+  height: 87px;
+  display: flex;
+  margin-top: 15px;
+
+  &.on {
+    background-color: #f31248;
+    color: white;
+  }
+}
