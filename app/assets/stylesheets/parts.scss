@@ -1,0 +1,45 @@
+.part1,
+.part2,
+.part3,
+.part0 {
+  height: 170px;
+  width: 313px;
+
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.part1 {
+  background-color: #f31248;
+}
+
+.part2 {
+  background-color: #f7c824;
+}
+
+.part3 {
+  background-color: #084adf;
+}
+
+.parts {
+  height: 370px;
+  width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 190px;
+}
+
+.parts h3 {
+  margin-left: 18px;
+}
+
+.togglePart {
+  height: 55px;
+  width: 313px;
+  display: flex;
+  margin-top: 71px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
